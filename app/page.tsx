@@ -1,3 +1,5 @@
+// Copilot Context: Follow .copilot-instructions (Next.js + shadcn/ui + ESLint rules)
+
 import Image from "next/image";
 
 export default function Home() {

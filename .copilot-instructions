@@ -1,0 +1,45 @@
+# ============================================
+
+# GitHub Copilot Project Instructions
+
+# ============================================
+
+When generating code:
+
+- Analyze the component's purpose, props, and state.
+- Use **shadcn/ui** components imported from "@/components/ui/\*".
+- Apply **TailwindCSS** classes for layout, spacing, color, and responsiveness.
+- Follow **strict TypeScript**: explicit prop interfaces, typed hooks, and returns.
+- Include accessibility (ARIA roles, focus management, semantic HTML).
+- Use **Next.js 14+ conventions** (App Router, Server/Client Components).
+- Handle error, loading, and empty states.
+- Suggest **Framer Motion** for animation or transitions.
+- Optimize performance (lazy imports, memoization, suspense).
+- Write short, descriptive JSDoc comments for complex logic.
+- Mention testing ideas (React Testing Library, Vitest, or Playwright).
+
+Project Rules:
+
+- Structure folders as:
+  app/
+  components/
+  components/ui/
+  hooks/
+  lib/
+  styles/
+- Enable `"strict": true` in tsconfig.json.
+- Never use `any`; prefer `unknown` or generics.
+- Use `interface` for object shapes; `type` for unions/intersections.
+- Enforce ESLint + Prettier standards.
+- Commit messages follow Conventional Commits (`feat:`, `fix:`, etc.).
+- Prioritize reusable, composable, and accessible components.
+
+shadcn/ui Rules:
+
+- Prefer existing components before creating new ones.
+- Follow design token spacing and typography scale.
+- Respect variant props and theme consistency.
+- Use Radix primitives properly (Dialog, DropdownMenu, etc.).
+- Keep Tailwind utility order logical: layout → spacing → color → state.
+
+# ============================================
